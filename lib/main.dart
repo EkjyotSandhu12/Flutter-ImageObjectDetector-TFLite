@@ -211,7 +211,7 @@ class _TfliteHomeState extends State<TfliteHome> {
                   left: detectedObject['rect']['x'] * size.width / 1.4 + 40,
                   height: detectedObject['rect']['h'] * size.width/1.4,
                   top: detectedObject['rect']['y'] * size.width/1.4,
-                  child: Container(
+                  child: Container(//
                     margin: EdgeInsets.only(top: 20, left: 20, right: 20),
                     decoration: BoxDecoration(
                       border: Border.all(
